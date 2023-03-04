@@ -1,0 +1,69 @@
+.carddiv{
+    /* border: 2px solid green; */
+    height: 43%;
+    width: 48%;
+    margin: 1rem;
+    display: flex;
+    color: white;
+    background-color: rgb(0, 0, 0);
+   box-shadow: 3px 3px 20px brown;
+   border-radius: 10px;
+
+}
+.carddiv .leftside{
+    /* border: 2px solid blue; */
+    height: 100%;
+    margin: 0rem .5rem;
+    width: 60%;
+   box-shadow:  30px 0px 30px 0px black;
+   z-index: 10;
+   padding-top: 1rem;
+}
+.st1-left{
+    /* border: 2px solid red; */
+    height: 40%;
+    width: 100%;
+    display: flex;
+}
+.st1-left-img{
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 30%;
+}
+.st1-left-img img{
+    width: 100%;
+    height: 100%;
+}
+.st1-left-containe{
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 70%;
+}
+
+.st1-left-containe p,h2,button{
+    margin: 0rem 1rem;
+    
+}
+
+.nd2-left{
+    /* border: 2px solid red; */
+    height: 40%;
+    width: 100%;  
+    padding-top: 1rem;
+}
+.nd2-left p{
+    margin: 0rem 0.5rem;
+}
+
+.carddiv .rightside{
+    /* border: 2px solid blue; */
+    height: 100%;
+    width: 40%;
+    z-index: 9;
+    border-radius: 0px 10px 10px 0px;
+
+}
+.rightside img{
+    height: 100%;
+    width: 100%;
+}
